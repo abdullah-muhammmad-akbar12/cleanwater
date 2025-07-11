@@ -1,8 +1,15 @@
 import streamlit as st
+import os
 
 st.set_page_config(page_title="ClearDrop", layout="centered")
 
-with open("styles.css") as f:
+# Force sidebar to show up
+st.sidebar.title("🔹 ClearDrop")
+st.sidebar.info("Use sidebar to explore pages.")
+
+# Load CSS
+css_path = os.path.join(os.path.dirname(__file__), "assets", "styles.css")
+with open(css_path) as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 st.markdown("<h1 class='hero-text'>💧 Drink Clean, Live Better</h1>", unsafe_allow_html=True)
@@ -15,3 +22,4 @@ Your health starts with a single drop.
 
 st.markdown("---")
 st.info("Navigate using the sidebar to see data, tips, and diseases.")
+
