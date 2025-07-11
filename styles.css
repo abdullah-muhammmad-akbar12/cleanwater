@@ -1,0 +1,51 @@
+body {
+    background-color: #14121f;
+    color: #bdbdf2;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.hero-text {
+    font-size: 3rem;
+    font-weight: 800;
+    background: linear-gradient(to right, #8a4cff, #5e5ae6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.section-text {
+    font-size: 1.2rem;
+    color: #ccccff;
+    text-align: center;
+    padding: 1rem 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+.card, .tip-card, .disease-card {
+    background-color: #1d1a2b;
+    border: 1px solid #4c4cff;
+    border-radius: 12px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.tip-title {
+    font-weight: bold;
+    color: #b388ff;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.tip-desc {
+    font-size: 0.95rem;
+    color: #ddd;
+}
+
+.disease-name {
+    font-size: 1.1rem;
+    color: #94aaff;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
