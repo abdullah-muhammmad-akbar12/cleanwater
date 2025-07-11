@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(page_title="ClearDrop", layout="centered")
 
-with open("assets/styles.css") as f:
+with open("styles.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 st.markdown("<h1 class='hero-text'>💧 Drink Clean, Live Better</h1>", unsafe_allow_html=True)
